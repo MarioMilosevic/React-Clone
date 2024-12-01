@@ -1,4 +1,3 @@
-
 const element = {
     type: "h1",
     props: {
@@ -13,3 +12,4 @@ node['title'] = element.props.title
 text['nodeValue'] = element.props.children;
 node.appendChild(text)
 container?.appendChild(node)
+// mogao bi u brancheve da ovo napravim 
